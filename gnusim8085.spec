@@ -8,7 +8,6 @@ Source: http://dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
 URL: http://gnusim8085.sourceforge.net
 BuildRequires: gnomeui2-devel gtksourceview1-devel
 BuildRequires: desktop-file-utils
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-build
 
 %description
 GNUSim8085 is a graphical simulator plus assembler with debugger for
