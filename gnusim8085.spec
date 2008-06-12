@@ -36,11 +36,15 @@ desktop-file-install --vendor='' --delete-original \
 # doc files are holding by rpm itself
 rm -fr %buildroot%_datadir/doc/*
 
+%if %mdkversion < 200900
 %post
 %update_menus
+%endif
 
+%if %mdkversion < 200900
 %postun
 %clean_menus
+%endif
 
 %files
 %defattr(-,root,root)
