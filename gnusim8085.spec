@@ -1,6 +1,6 @@
 Name: gnusim8085
 Summary: Graphical Intel 8085 simulator, assembler and debugger
-Version: 1.3.6
+Version: 1.3.7
 Release: %mkrel 1
 License: GPLv2+
 Group: Development/Other
