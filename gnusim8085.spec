@@ -59,3 +59,40 @@ rm -fr %buildroot%_datadir/doc/*
 
 %clean
 rm -rf %{buildroot}
+
+
+%changelog
+* Wed May 18 2011 Funda Wang <fwang@mandriva.org> 1.3.7-1mdv2011.0
++ Revision: 676054
+- new version 1.3.7
+
+* Tue Aug 03 2010 Funda Wang <fwang@mandriva.org> 1.3.6-1mdv2011.0
++ Revision: 565284
+- New version 1.3.6
+
+* Fri Sep 11 2009 Thierry Vignaud <tv@mandriva.org> 1.3.5-2mdv2010.1
++ Revision: 437797
+- rebuild
+
+* Wed Mar 18 2009 Funda Wang <fwang@mandriva.org> 1.3.5-1mdv2009.1
++ Revision: 357118
+- New version 1.3.5
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.3.2-3mdv2009.0
++ Revision: 246506
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Sun Oct 28 2007 Funda Wang <fwang@mandriva.org> 1.3.2-1mdv2008.1
++ Revision: 102847
+- install correct dekstop file
+- fix file list
+- First package
+- Created package structure for gnusim8085.
+
