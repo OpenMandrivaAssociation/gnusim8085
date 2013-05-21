@@ -1,7 +1,7 @@
 Name: gnusim8085
 Summary: Graphical Intel 8085 simulator, assembler and debugger
 Version: 1.3.7
-Release: %mkrel 1
+Release: 2
 License: GPLv2+
 Group: Development/Other
 Source:  http://launchpad.net/gnusim8085/trunk/%version/+download/%name-%version.tar.gz
@@ -9,7 +9,6 @@ URL: http://launchpad.net/gnusim8085
 BuildRequires: pkgconfig(gtk+-2.0) >= 2.12.0
 BuildRequires: pkgconfig(gtksourceview-2.0) >= 2.2.0
 BuildRequires: desktop-file-utils
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-build
 
 %description
 GNUSim8085 is a graphical simulator plus assembler with debugger for
