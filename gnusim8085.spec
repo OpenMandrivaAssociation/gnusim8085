@@ -5,7 +5,7 @@ Release: 3
 License: GPLv2+
 Group: Development/Other
 Source:  http://launchpad.net/gnusim8085/trunk/%version/+download/%name-%version.tar.gz
-URL: http://launchpad.net/gnusim8085
+URL: https://launchpad.net/gnusim8085
 BuildRequires: pkgconfig(gtk+-2.0) >= 2.12.0
 BuildRequires: pkgconfig(gtksourceview-2.0) >= 2.2.0
 BuildRequires: desktop-file-utils
